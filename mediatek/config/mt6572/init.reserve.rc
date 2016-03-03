@@ -1,0 +1,41 @@
+#init.reserve.rc
+
+on early-init
+#create mount point for reserve partition
+
+    mkdir /reserve_1 0771 system system
+    mkdir /reserve_2 0771 system system
+
+# mount reserveed partitions
+
+on fs_property:ro.mount.fs=EXT4
+    write /proc/bootprof "INIT:reserve:Mount_START"
+    exec /sbin/e2fsck -pfD /emmc@reserve_1
+    exec /sbin/tune2fs -O has_journal /emmc@reserve_1
+    mount ext4 /emmc@reserve_1 /reserve_1 noatime nosuid nodev wait commit=1,nodelalloc,noauto_da_alloc
+    exec /sbin/e2fsck -pfD /emmc@reserve_2
+    exec /sbin/tune2fs -O has_journal /emmc@reserve_2
+    mount ext4 /emmc@reserve_2 /reserve_2 noatime nosuid nodev wait commit=1,nodelalloc,noauto_da_alloc	
+    write /proc/bootprof "INIT:reserve:Mount_END"
+
+on fs_property:ro.mount.fs=UBIFS
+    write /proc/bootprof "INIT:reserve:Mount_START"
+    mount yaffs2 mtd@reserve_1 /reserve_1 nosuid nodev
+    mount yaffs2 mtd@reserve_2 /reserve_2 nosuid nodev
+    write /proc/bootprof "INIT:reserve:Mount_END"
+
+on fs_property:ro.mount.fs=YAFFS
+    write /proc/bootprof "INIT:reserve:Mount_START"
+    mount yaffs2 mtd@reserve_1 /reserve_1 nosuid nodev
+    mount yaffs2 mtd@reserve_2 /reserve_2 nosuid nodev
+    write /proc/bootprof "INIT:reserve:Mount_END"
+
+#end of mount reserveed partitions
+
+on post-fs-data
+    # We chown/chmod /reserve_1 and /reserve_2 again so because mount is run as root + defaults
+    chown system system /reserve_1
+    chmod 0771 /reserve_1
+
+    chown system system /reserve_2
+    chmod 0771 /reserve_2

@@ -1,0 +1,26 @@
+#[Section:Manual modify]
+
+FLAG_MTK_BUILD_SYS := 1
+USING_GPU_UTILIZATION := 1
+CONFIG_MALI400 := y
+
+ifeq ($(VER),eng)
+CONFIG_MALI400_DEBUG := y
+ccflags-y += -DDEBUG
+else
+CONFIG_MALI400_DEBUG := n
+ccflags-y += -UDEBUG
+endif
+
+#CONFIG_MALI400_DEBUG := y
+#CONFIG_PM_RUNTIME := y
+CONFIG_DMA_SHARED_BUFFER := y
+#CONFIG_MALI400_UMP := y
+#CONFIG_MALI400_PROFILING := y
+#CONFIG_MALI400_INTERNAL_PROFILING := y
+#CONFIG_SYNC := y
+
+#----------------------------------------------------------
+MTK_DEBUG := $(CONFIG_MALI400_DEBUG)
+ccflags-$(MTK_DEBUG) += -DMTK_DEBUG
+

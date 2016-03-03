@@ -1,0 +1,456 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/* //device/apps/common/assets/res/any/strings.xml
+**
+** Copyright 2006, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+--><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<string name="keyguard_pinword_enter_pinword_code">Introdueix el PIN per desbloquejar</string>
+        
+    <string name="badPin2">El PIN 2 anterior que has escrit no és correcte.</string>
+    <string name="badPuk2">El PUK 2 que has escrit no és correcte.</string>
+    
+    <string name="checkPwdLen">La contrasenya ha de tenir entre 4 i 8 dígits.</string>
+    
+    <string name="pinNotEnabled">Habilita el PIN abans de canviar-lo.</string>
+    
+    <string name="puk1Blocked">El PIN està bloquejat.</string>
+    
+    <string name="puk2Blocked">El PIN 2 està bloquejat.</string>
+
+    
+    <string name="fdnFailMmi">Error en verificar FDN.</string>
+    
+    <string name="callBarringFailMmi">Error en restricció de trucades.</string>
+    <string name="Pin2Mmi">Canvi de PIN 2</string>
+    <string name="PukMmi">Desbloqueja PIN</string>
+    <string name="Puk2Mmi">Desbloqueja PIN 2</string>
+    
+    <string name="serviceProvisioned">Servei ofert.</string>
+
+    
+    <string name="serviceUnknown">Problema de connexió o codi MMI no vàlid.</string>
+    <string name="cfServiceNotForwarded">"No s'ha reenviat."</string>
+    
+    <string name="permlab_receiveCbSms">rep SMS de CB</string>
+    
+    <string name="permdesc_receiveCbSms">Permet a l’aplicació rebre i processar missatges d’SMS de CB. Les aplicacions malicioses poden controlar els teus missatges o eliminar-los sense mostrar-los.</string>
+
+    <string name="keyguard_password_enter_puk_code">Introdueix el codi PUK</string>
+
+    <string name="keyguard_password_wrong_puk_code">Codi PUK incorrecte</string>
+
+    <string name="keyguard_password_enter_new_pin_code">Introdueix PIN nou</string>
+
+    <string name="keyguard_password_Confirm_pin_code">Confirma el PIN nou</string>
+
+    <string name="invalidPuk">Introdueix 8 dígits.</string>
+
+    <string name="sim_permanently_locked">Si introdueixes un codi PUK incorrecte més de 10 vegades, la targeta SIM es bloqueja permanentment.</string>
+
+    <string name="pin_length_indicate">(4-8 dígits)</string>
+
+    <string name="puk_length_indicate">(8 dígits)</string>
+
+    <string name="one_retry_left">Queda 1 reintent</string>
+
+    <string name="retries_left">Queda: <xliff:g id="number">%d</xliff:g></string>
+    
+    <string name="invalid_imei">IMEI no vàlid</string>
+    <string name="same_imei">El mateix IMEI</string>
+
+    
+    <string name="oper_long_46000">CMCC</string>
+    <string name="oper_long_46001">CU</string>
+    <string name="oper_long_46003">China Telecom</string>    
+    <string name="oper_long_46601">Far EasTone</string>
+    <string name="oper_long_46692">Chunghwa Telecom</string>
+    <string name="oper_long_46697">Taiwan Mobile</string>
+    <string name="oper_long_99998">Android1</string>
+    <string name="oper_long_99999">Android</string>
+
+    
+    <string name="oper_short_46000">CMCC</string>
+    <string name="oper_short_46001">CU-GSM</string>
+    <string name="oper_short_46003">China Telecom</string>    
+    <string name="oper_short_46601">FET</string>
+    <string name="oper_short_46692">Chunghwa</string>
+    <string name="oper_short_46697">TWN</string>
+    <string name="oper_short_99997">AD1</string>
+    <string name="oper_short_99999">AD</string>
+
+    
+    <string name="unable_launch_the_ap">"No s'ha pogut iniciar l'aplicació."</string>
+    
+    <string name="keyguard_password_enter_sim1_pin_code">Introdueix el codi PIN de la SIM 1</string>
+
+    
+    <string name="RestrictedChangedTitle_SIM1">S’ha canviat l’accés restringit de la SIM 1</string>
+    <string name="RestrictedChangedTitle_SIM2">S’ha canviat l’accés restringit de la SIM 2</string>
+    
+    <string name="keyguard_password_enter_sim2_pin_code">Introdueix el codi PIN de la SIM 2</string>
+
+
+    <string name="keyguard_password_wrong_sim1_pin_code">Codi PIN de la SIM 1 incorrecte</string>
+
+    <string name="keyguard_password_wrong_sim2_pin_code">Codi PIN de la SIM 2 incorrecte</string>
+
+    <string name="keyguard_password_enter_sim1_puk_code">Introdueix el codi PUK de la SIM 1</string>
+
+    <string name="keyguard_password_enter_sim2_puk_code">Introdueix el codi PUK de la SIM 2</string>
+
+    
+    <string name="lockscreen_sim1_puk_locked_message">La targeta SIM 1 està bloquejada amb codi PUK</string>
+
+    
+    <string name="lockscreen_sim2_puk_locked_message">La targeta SIM 2 està bloquejada amb codi PUK</string>
+
+    <string name="choose_bootup_mode">Selecciona la SIM</string>
+    <string name="choose_gprs_mode">Selecciona la connexió de dades</string>
+    <string name="sim_close">Tanca targeta SIM</string>
+    <string name="lockscreen_sim_puk_locked_message_short">Bloquejada amb PUK</string>
+    <string name="lockscreen_sim_locked_message_short">Targeta SIM bloquejada</string>
+    <string name="simlock_slot_locked_message">La ranura s’ha bloquejat permanentment</string>
+    <string name="simlock_entersimmelock">Introdueix bloqueig ME de SIM</string>
+    <string name="slot_id">Ranura <xliff:g id="number">%d</xliff:g>:</string>
+    <string name="new_simcard">Targeta SIM nova</string>
+    <string name="lockscreen_missing_sim_dialog_message">"La targeta SIM no està connectada. Comprova que la targeta SIM està ben connectada."</string>
+
+    
+    <string name="permlab_receiveDmRegisterSms">rep SMS de registre DM</string>
+    
+    <string name="permdesc_receiveDmRegisterSms">Permet a l’aplicació rebre i processar missatges d’SMS de registre DM. Cap aplicació ha d’utilitzar aquesta opció, excepte l’aplicació de DM.</string>
+
+    <string name="lockscreen_password_error">Error de contrasenya, torna-ho a provar</string>
+  	  <string name="lockscreen_pinword_error">Error de PIN, torna-ho a provar</string>
+
+    <string name="music_no_artist">Nom d’intèrpret desconegut</string>
+    <string name="music_play">"Reprodueix"</string>
+    <string name="music_pause">Pausa</string>
+    <string name="music_library">Biblioteca</string>
+    <string name="music_no_songs">No hi ha cap cançó</string>
+    
+    
+    <string name="serviceClassVideo">Vídeo</string>
+  <string name="aerr_application_lowmem">Emmagatzematge del telèfon ple, l’aplicació s’ha aturat. Allibera espai i torna-ho a provar.</string>
+  
+  <string name="aerr_process_lowmem">Emmagatzematge del telèfon ple, el procés s’ha aturat. Allibera espai i torna-ho a provar.</string>
+  <string name="free_memory_btn">"Espai lliure"</string>
+  <string name="free_memory_text">"Memòria baixa. Allibera memòria, si us plau."</string>		
+<string name="mem_low_title">Allibera memòria, si us plau</string>
+   
+   <string name="unread_message">%d missatge no llegit</string>
+   <string name="unread_messages">%d missatges no llegits</string>
+   <string name="missed_call">%d trucada perduda</string>
+   <string name="missed_calls">%d trucades perdudes</string>
+  
+  <string name="no_favorite_contacts">No hi ha contactes favorits</string>
+  <string name="contact_widget_loading">S’està carregant\u2026</string>
+   
+   <string name="volume_fm">Volum d’FM</string>
+   
+   <string name="volume_matv">Volum de TV mòbil</string>
+
+   
+   <string name="media_controller_buffering">"S’està emmagatzemant a la memòria intermèdia %d%%..."</string>
+   <string name="media_controller_live">"En viu"</string>
+   <string name="media_controller_playing">"Reproduint"</string>
+   <string name="media_controller_connecting">"S’està connectant…"</string>
+   <string name="media_controller_weak_signal">"senyal dèbil"</string>
+   <string name="VideoView_error_text_bad_file">"Fitxer incorrecte, aquest vídeo no es pot reproduir."</string>
+   <string name="VideoView_error_text_cannot_connect_to_server">"No es pot connectar al servidor."</string>
+   <string name="VideoView_error_text_type_not_supported">"El tipus de fitxer multimèdia no és compatible."</string>
+   <string name="VideoView_error_text_drm_not_supported">"Protegit per DRM, aquest vídeo no es pot reproduir."</string>
+   <string name="VideoView_error_text_invalid_connection">"Connexió no vàlida. (403 Prohibit)"</string>
+   
+
+    
+   
+
+    
+    <string name="redo">Refés</string>
+    <string name="undo">"desfés"</string>
+    <string name="undoAll">Desfés-ho tot</string>
+    <string name="new_sim">SIM nova</string>
+
+    
+    <string name="edit">"Edita"</string>
+    <string name="delete">"Suprimeix"</string>
+
+    
+    <string name="sim_card_changed_dialog_title">Targeta SIM canviada</string>
+    <string name="change_setting_for_onenewsim">Targeta SIM nova detectada. S’ha etiquetat com a</string>
+    <string name="change_setting_for_twonewsim">Targeta SIM nova detectada. Estan etiquetades com a</string>
+    <string name="sim_card_removed">Targeta SIM extreta.</string>
+    <string name="sim_card_swapped">Targeta SIM intercanviada.</string>
+    <string name="change_settings">Canvia</string>
+    <string name="keyguard_voice_call">Trucada de veu:</string>
+    <string name="keyguard_sms">Missatgeria:</string>
+    <string name="keyguard_data">Connexió de dades:</string>
+    <string name="keyguard_alwaysask">Demana-m’ho sempre</string>
+    <string name="keyguard_data_none">Desactivat</string>
+    <string name="keyguard_sim_auto">"automàtica"</string>
+    <string name="dismiss">"Omet"</string>
+    <string name="keyguard_wrong_code_input">Codi incorrecte.</string>
+    <string name="keyguard_code_length_prompt">Introdueix 4-8 dígits.</string>
+    <string name="keyguard_code_donnot_mismatch">No\ coincideixen.</string>
+    <string name="for_text">per a</string>
+    <string name="keyguard_internal_call">Trucada interna</string>
+    <string name="keyguard_not_set">No establert</string>
+    <string name="network_searching">S’està cercant una xarxa nova</string>
+    <string name="searching_simcard">S’està detectant...</string>
+    <string name="keyguard_close">"Tanca"</string>
+    <string name="for_first_simcard">Per a la primera SIM</string>
+    <string name="for_second_simcard">Per a la segona SIM</string>
+    <string name="for_third_simcard">Per a la tercera SIM</string>
+    <string name="for_fourth_simcard">Per a la quarta SIM</string>
+    <string name="default_sim_setting_prompt">Ara la configuració predeterminada és:</string>
+    <string name="keyguard_video_call">Trucada de vídeo:</string>
+    <string name="dm_prompt">El terminal ja s’ha bloquejat</string>
+     
+
+    
+    <string name="invalid_sim_title">Targeta SIM no vàlida</string>
+    
+    
+    <string name="invalid_sim_message">La targeta UIM/SIM no es reconeix.</string>
+     
+         
+    <string name="lockscreen_pin_too_many_failed_attempts_dialog_message">Has introduït un PIN incorrecte <xliff:g id="number">%d</xliff:g> vegades. \n\nTorna-ho a provar en <xliff:g id="number">%d</xliff:g> segons.</string>
+    
+    <string name="lockscreen_password_too_many_failed_attempts_dialog_message">Has introduït una contrasenya incorrecta <xliff:g id="number">%d</xliff:g> vegades. \n\nTorna-ho a provar en <xliff:g id="number">%d</xliff:g> segons.</string>
+
+   
+    
+    
+    
+    
+       
+    <string name="criticallowtitle">No queda espai</string>
+    <string name="criticallowmessage">L’emmagatzematge del telèfon és ple, elimina els fitxers que no fas servir o l’aplicació es podria tancar de forma inesperada.</string> 
+
+    <string name="nq_sms_filter_title">"Filtre d'SMS"</string>
+    <string name="nq_sms_filter_message">Aquest missatge pot comportar despeses. Vols continuar?</string>
+    <string name="nq_sms_filter_yes">"Sí"</string>
+    <string name="nq_sms_filter_no">"No"</string>
+    
+    
+    <string name="ext_media_checking_notification_title_sd2">Prepara la targeta SD</string>
+    <string name="ext_media_checking_notification_title_otg">Prepara l’emmagatzematge USB</string>
+    <string name="ext_media_badremoval_notification_title_otg">L’emmagatzematge USB s’ha extret inesperadament</string>
+    <string name="ext_media_nomedia_notification_title_otg">L’emmagatzematge USB s’ha extret</string>
+    <string name="ext_media_badremoval_notification_message_otg">Desactiva l’emmagatzematge USB abans d’extreure’l per no perdre dades.</string>
+    <string name="ext_media_nomedia_notification_message_otg">L’emmagatzematge USB s’ha extret. Insereix un suport nou.</string>
+    <string name="ext_media_unmountable_notification_title_otg">Emmagatzematge USB malmès</string>
+    <string name="ext_media_unmountable_notification_message_otg">L’emmagatzematge USB està malmès. Potser hauràs de reformatar-lo.</string>
+    <string name="ext_media_nofs_notification_title_otg">Emmagatzematge USB en blanc</string>
+    <string name="ext_media_nofs_notification_message_otg">Emmagatzematge USB en blanc o sistema de fitxers no compatible.</string>
+    <string name="ext_media_safe_unmount_notification_title_otg">És segur extreure l’emmagatzematge USB</string>
+    <string name="ext_media_safe_unmount_notification_message_otg">Pots extreure l’emmagatzematge USB amb seguretat.</string>
+    
+    
+    <string name="drm_protection_status">Estat de protecció:</string>
+    <string name="drm_can_forward">Es pot reenviar.</string>
+    <string name="drm_can_not_forward">No es pot reenviar.</string>
+    <string name="drm_no_limitation">No hi ha límits.</string>
+    <string name="drm_no_license">No hi ha cap llicència de DRM disponible.</string>
+    <string name="drm_begin">Inici:</string>
+    <string name="drm_end">Final:</string>
+    <string name="drm_use_left">Queden:</string>
+    <string name="drm_protectioninfo_renew">Renova</string>
+    <string name="drm_protectioninfo_title">Informació de protecció</string>
+    <string name="drm_licenseacquisition_title">Adquisició de llicència de DRM</string>
+    <string name="drm_licenseacquisition_message">%1$s no té cap llicència de DRM disponible. Pots prémer el botó "Renova" per adquirir la llicència de DRM.</string>
+    <string name="drm_toast_license_expired">La llicència de DRM ha caducat.</string>
+    <string name="drm_forwardforbidden_title">Reenviament prohibit</string>
+    <string name="drm_forwardforbidden_message">Alguns fitxers protegits no es poden reenviar.</string>
+    <string name="drm_license_install_success">Instal·lació de llicència de DRM correcta.</string>
+    <string name="drm_license_install_fail">"Error d'instal·lació de llicència de DRM."</string>
+    <string name="drm_secure_timer_title">Rellotge segur de DRM no vàlid</string>
+    <string name="drm_secure_timer_message">No pots utilitzar fitxers protegits per DRM. Comprova que tens una connexió de dades.</string>
+    <string name="drm_consume_title">Consumeix drets de DRM</string>
+    <string name="drm_consume_message">La teva acció consumirà drets de DRM.</string>
+    <string name="drm_forward_forbidden">Un o més fitxers protegits no es poden reenviar.</string>
+    
+    
+
+    <string name="recip_unsupport_operator">La vista de destinataris no admet operacions de caràcters, utilitza la barra d’eines per treballar amb destinataris.</string>
+    <string name="recip_unsupport_selection">Malauradament no pots desplaçar l’operador exponencial a l’inici si hi ha destinataris a la vista de destinataris.</string>
+    
+    <string name="virtual_sim_on_slot1">SIM 1 virtual ACTIVA</string>
+    <string name="virtual_sim_on_slot2">SIM 2 virtual ACTIVA</string>
+    <string name="virtual_sim_on_slot3">SIM 3 virtual ACTIVA</string>
+    <string name="virtual_sim_on_slot4">SIM 4 virtual ACTIVA</string>
+    <string name="virtual_sim_on">SIM virtual ACTIVA</string>
+    
+    <string name="sim_missing_slot1">Ranura 1:  No s’ha detectat cap targeta SIM</string>
+    <string name="sim_missing_slot2">Ranura 2:  No s’ha detectat cap targeta SIM</string>
+    <string name="sim_missing_slot3">Ranura 3:  No s’ha detectat cap targeta SIM</string>
+    <string name="sim_missing_slot4">Ranura 4:  No s’ha detectat cap targeta SIM</string>
+    <string name="sim_missing">No s’ha detectat cap targeta SIM</string>
+    <string name="sim_missing_detail">Comprova si la targeta SIM està a punt</string>
+    
+    <string name="wap_push_setting_noti_ticker">Vols acceptar el servei de tramesa automàtica o no?</string>
+    <string name="wap_push_setting_noti_title">Vols acceptar el servei de tramesa automàtica o no?</string>
+    <string name="wap_push_setting_noti_text">Toca per seleccionar</string>
+    <string name="url_dialog_choice_title">Missatges</string>
+    <string name="url_dialog_choice_message">S’obrirà el navegador, vols continuar?</string>
+
+    
+    
+    <string name="deleteApp">Desinstal·la aplicacions</string>    
+    <string name="deleteMail">Fes una còpia de seguretat dels correus i allibera espai d’emmagatzematge</string>    
+
+    <string name="storage_withsd">L’emmagatzematge del telèfon no té prou espai. Allibera espai d’emmagatzemament o canvia el disc d’escriptura predeterminat a la configuració.</string>
+    <string name="storage_withoutsd">L’emmagatzematge del telèfon no té prou espai. Allibera espai d’emmagatzematge o introdueix una targeta SD.</string>
+    <string name="storage_sd">La targeta SD no té prou espai. Allibera espai d’emmagatzemament o canvia el disc d’escriptura predeterminat a la configuració.</string>   
+    <string name="usb_ums_notification_title">Connectat com a emmagatzematge USB</string>
+    
+    <string name="usb_charging_notification_title">Només càrrega per USB</string>
+    
+    
+    
+    <string name="gps_time_sync_fail_str">No s’ha pogut obtenir l’hora subministrada pel GPS</string>
+
+    
+    <string name="calibration_data">Encara no s’ha calibrat. Descarrega les dades de calibratge. Si no, el dispositiu potser no es connecta a la xarxa. [MTK usuari intern]</string>
+
+        
+    <string name="invalid_card">Targeta no vàlida</string>
+        
+    <string name="RejectCauseTitle">Motiu pel qual s’ha rebutjat la xarxa</string>
+        
+    <string name="MMRejectCause2">SIM no subministrada MM #2</string>
+        
+    <string name="MMRejectCause3">SIM no permesa MM #3</string>
+        
+    <string name="MMRejectCause5">La trucada ha fallat MM #5</string>
+        
+    <string name="MMRejectCause6">Telèfon no permès MM #6</string>    
+    
+    <string name="MMRejectCause13">Només SOS/trucades d’emergència</string>
+
+    
+    <string name="find_previous">Anterior</string>
+    <string name="find_next">Següent</string>
+
+    <string name="tethered_notification_message_for_hotspot"><xliff:g id="connected">%1$d</xliff:g> connectat, <xliff:g id="blocked">%2$d</xliff:g> bloquejat</string>
+    <string name="tethered_notification_message_bandwidth_set">S’ha definit l’ample de banda</string>
+    
+    <string name="usbint_notification_title">Internet per USB activa</string>
+
+    
+    <string name="default_wallpaper_name">"Predeterminada"</string>
+
+
+    
+    
+    
+    
+    <string name="keyguard_accessibility_alarm_unlock">Desactiva l’alarma</string>
+    
+    <string name="alarm_alert_dismiss_text">Omet</string>
+    
+    <string name="description_direction_right">"Fes lliscar el dit cap a la dreta per ometre"</string>
+    
+    <string name="alarm_alert_snooze_text">"Repeteix"</string>
+    
+    <string name="description_direction_left">"Fes lliscar el dit cap a l\'esquerra per posposar"</string>
+    
+    <string name="description_direction_up">"Fes lliscar el dit cap amunt per ometre"</string>
+    
+    <string name="description_direction_down">"Fes lliscar el dit cap avall per posposar"</string>
+    <string name="every_day">"Cada dia"</string>
+    <string name="never">Mai</string>
+    <string name="day_concat">", "</string>
+    
+    <string name="default_label">"Alarma"</string>
+    
+    <string name="dismiss_power_on">Omet i activa</string>   
+    
+    <string name="dismiss_power_off">Omet i desactiva</string>
+    
+
+    
+    <string name="voice_unlock_service_error">Error del servei de veu!</string>
+    <string name="voice_unlock_password_wrong">Malauradament no es reconeix la teva veu.</string>
+    <string name="voice_unlock_noisy">Hi ha massa soroll, no sento bé la teva veu.</string>
+    <string name="voice_unlock_weak">No sento la teva veu.</string>
+    <string name="voice_unlock_media_playing">El desbloqueig per veu està desactivat durant la reproducció multimèdia.</string>
+    <string name="voiceunlock_multiple_failures">S’ha superat el màxim d’intents de desbloqueig per veu</string>
+    
+    
+    <string name="voiceui_notify_string">Pots dir</string>
+    <string name="voiceui_control_poweroff_alarm">per controlar la desactivació de l’alarma.</string>
+    <string name="voiceui_comma">,</string>
+    <string name="voiceui_quota_start">"</string>
+    <string name="voiceui_quota_end">"</string>
+    <string name="voiceui_or">o</string>
+
+    
+    <string name="dialog_color_picker">Selector de colors </string>
+    <string name="press_color_to_apply">Prem un color per aplicar-lo</string>
+    <string name="color_picker_select">-&gt;</string>
+
+    
+
+    
+    <string name="wifi_display_bt_hdmi_off_wfd_on">El Bluetooth i l’HDMI s’apagaran quan activis la visualització sense fil. Vols continuar?</string> 
+    
+    <string name="wifi_display_wfd_off_hdmi_on">La visualització sense fil s’apagarà quan activis l’HDMI. Vols continuar?</string> 
+    
+    <string name="wifi_display_wfd_off_bt_on">La visualització sense fil s’apagarà quan activis el Bluetooth. Vols continuar?</string> 
+    
+    <string name="wifi_display_wifi_p2p_disconnect_wfd_connect">La connexió actual de Wi-Fi Direct es desconnectarà quan connectis el dispositiu de visualització sense fil. Vols continuar?</string>
+    
+    <string name="wifi_display_unstable_connection">Connexió inestable</string>
+    
+    <string name="wifi_display_connection_is_not_steady">La connexió actual de visualització sense fil no és estable.</string>
+
+    
+    <string name="wifi_display_unstable_suggestion">La connexió actual de visualització sense fil no és estable, prova d’apropar-te al dispositiu de visualització.</string>
+    
+    <string name="wifi_display_reconnect">Torna a connectar-te</string> 
+    
+    <string name="wifi_display_disconnect_then_reconnect">Visualització sense fil desconnectada. Vols tornar-la a connectar?</string> 
+    
+    <string name="wifi_display_disconnected">Visualització sense fil desconnectada.</string>
+     
+    <string name="wifi_wps_failed_overlap">"S\'ha detectat una altra sessió de WPS. Torna-ho a provar d\'aquí a una estona."</string>
+
+    
+    <string name="sdcard_ready_title">La targeta SD està a punt</string>
+    <string name="sdcard_select_default_path">Vols canviar el disc d’escriptura predeterminat?</string>
+    <string name="sdcard_default_path_change">S’ha canviat el disc d’escriptura predeterminat.</string>
+    <string name="usb_storage_ready_title">Emmagatzematge USB extern a punt</string>
+    
+
+    
+    <string name="pin_pass">Codi acceptat</string>
+    <string name="puk_pass">PIN desbloquejat</string>
+    
+    
+    <string name="headset_pin_recognition">Els auriculars no són compatibles amb el telèfon. Prova amb uns altres.</string>
+
+    
+    <string name="secure_warning_title">Advertència</string>
+    <string name="secure_warning_message">Aquest contingut està protegit contra còpies. Només es pot reproduir al dispositiu actual.</string>
+    <string name="secure_warning_toast_message">Només es pot reproduir al dispositiu actual.</string>    
+    
+    
+    
+    <string name="msensor_toast_text">Interferència de brúixola. Mou el telèfon com mostra la imatge 8 per tornar a calibrar la brúixola.</string>
+    
+</resources>
