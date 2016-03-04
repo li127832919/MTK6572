@@ -33,3 +33,15 @@ mediatek/preloader/report-objsize.txt
 mediatek/preloader/system.map
 mediatek/build/tools/SignTool/inc/build_info.h
 mediatek/build/tools/SignTool/lib/SignLib.a
+
+mediatek/custom/pe900s/kernel/dct/dct/cust_adc.h
+mediatek/custom/pe900s/kernel/dct/dct/cust_eint.h
+mediatek/custom/pe900s/kernel/dct/dct/cust_eint_md1.h
+mediatek/custom/pe900s/kernel/dct/dct/cust_gpio_boot.h
+mediatek/custom/pe900s/kernel/dct/dct/cust_gpio_usage.h
+mediatek/custom/pe900s/kernel/dct/dct/cust_kpd.h
+mediatek/custom/pe900s/kernel/dct/dct/cust_power.h
+mediatek/custom/pe900s/kernel/dct/dct/pmic_drv.c
+mediatek/custom/pe900s/kernel/dct/dct/pmic_drv.h
+mediatek/custom/pe900s/preloader/custom_emi.c
+mediatek/custom/pe900s/preloader/inc/custom_emi.h
