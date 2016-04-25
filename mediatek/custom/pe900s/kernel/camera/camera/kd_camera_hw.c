@@ -36,7 +36,7 @@
 #define PK_XLOG_INFO(fmt, args...)
 #endif
 
-#define GPIO_PE900S_SE4500_POWER_PIN    GPIO97
+#define GPIO_PE900S_SE4500_POWER_PIN    GPIO14
 #define GPIO_PE900S_LVC16245_OE         GPIO89
 #define GPIO_PE900S_LVC16245_DIR        GPIO90
 
