@@ -13,3 +13,7 @@ AP7200_MDK是配套的Android手机开发板
 生成bootimage
 -------------
 ./mk bootimage
+
+编译内核模块
+------------
+./mk r k path_to_module
