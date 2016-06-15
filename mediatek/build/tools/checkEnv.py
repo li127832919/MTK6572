@@ -184,8 +184,8 @@ class MemoryCheck(object):
         match = pattern.match(freeMem)
         if match:
             self.memSize = match.group(1)
-            lowMem = 2.0 * 1024 * 1024
-            highMem = 4.0 * 1024 * 1024
+            lowMem = 0.5 * 1024 * 1024
+            highMem = 2.0 * 1024 * 1024
             if float(self.memSize) < lowMem:
                 self.info = "it's too smaller than we recommendation"
                 global checkResult
