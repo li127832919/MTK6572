@@ -426,7 +426,7 @@ class GccCheck(object):
             checkResult = 1
 
     def checkGccVersion(self):
-        gccVersion = commands.getoutput("%s --v" % self.gcc)
+        gccVersion = commands.getoutput("%s -v" % self.gcc)
         pattern = re.compile(".*gcc\s*version\s*([\d\.]+)",re.S)
         match = pattern.match(gccVersion)
         if match:
